@@ -11,7 +11,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.5.13
-    created: "2024-07-30T01:20:15.21220209+05:00"
+    created: "2024-07-30T23:16:05.817081415+05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -21,7 +21,7 @@ entries:
     description: etcd is a distributed key-value store designed to securely store
       data across a cluster. etcd is widely used in production on account of its reliability,
       fault-tolerance and ease of use.
-    digest: 26549fa15dee283d0cc44145f9a09610918a554176faf21e6eb4f19c6cb60d4f
+    digest: 663be8401bf505e3f4ca3a2df8f87a07c8c4dbb55a6c96bcbf24c70c22c3605e
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
     keywords:
@@ -37,18 +37,18 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/etcd
     urls:
-    - https://github.com/Aretec-Inc/disearch-helm.git/etcd-10.0.3.tgz
+    - https://github.com/MuhammadHassanBashir/helmchart-duplication.git/etcd-10.0.3.tgz
     version: 10.0.3
   gke-templates:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-30T01:20:15.213165811+05:00"
+    created: "2024-07-30T23:16:05.81788646+05:00"
     description: A Helm chart for Kubernetes
-    digest: 05050706d746522c22801c727c9bfd9bac298080d1a6c968529a1c510a9efcea
+    digest: 3ee6d436b3622944b39c0f7b93a111142bc2542f0a5590f9cdf3947763043d01
     name: gke-templates
     type: application
     urls:
-    - https://github.com/Aretec-Inc/disearch-helm.git/gke-templates-0.1.0.tgz
+    - https://github.com/MuhammadHassanBashir/helmchart-duplication.git/gke-templates-0.1.0.tgz
     version: 0.1.0
   redis:
   - annotations:
@@ -67,7 +67,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-07-30T01:20:15.224891932+05:00"
+    created: "2024-07-30T23:16:05.827342194+05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -77,7 +77,7 @@ entries:
     description: Redis(R) is an open source, advanced key-value store. It is often
       referred to as a data structure server since keys can contain strings, hashes,
       lists, sets and sorted sets.
-    digest: 6223645bc29903aa6ad428b34e115f3f24358792537a934d0c14e0afe11d96be
+    digest: 89da95714f7074de1422bfd0e1b04ca8e8ec94d491e61ea9571c90fb36a44c91
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
@@ -91,6 +91,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/redis
     urls:
-    - https://github.com/Aretec-Inc/disearch-helm.git/redis-19.1.0.tgz
+    - https://github.com/MuhammadHassanBashir/helmchart-duplication.git/redis-19.1.0.tgz
     version: 19.1.0
-generated: "2024-07-30T01:20:15.205696679+05:00"
+generated: "2024-07-30T23:16:05.809964885+05:00"
